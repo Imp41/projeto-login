@@ -41,6 +41,61 @@
         margin-top: 3.5vw;
         font-size: 1.5em;
     }
+
+    div.campo > span {
+        color: #3bad4ece;
+        
+    }
+
+    div.campo > input {
+        width: 65%;
+        height: 2em;
+        font-size: 1em;
+        border: 1px solid #3bad4ece;
+        border-radius: 5px;
+    }
+    
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #75c561;
+        color: white;
+        border: 1px solid #3bad4ece;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 4vh;
+    }
+
+    form > input[type=submit]:hover {
+        background-color: #3bad4ece;
+        transition: 0.5s;
+        block-size: 3em;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        background-color:#75c561;
+        color: aliceblue;
+        border: 1px solid #3bad4ece;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 0.5vh;
+    }
+
+    form > a.botao:hover {
+        background-color: #3bad4ece;
+        transition: 0.5s;
+        block-size: 3em;
+    }
+
+    form > a.botao > span {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -51,12 +106,12 @@
     
     section#login {
         width: 990px;
-        background-color: #db3434;
+        background-color: #d12718;
     }
 
     section#login > div#imagem {
         float: right;
-        background: #db3434 url(../imagens/Diddy_Kong.png);
+        background: #d12718 url(../imagens/Diddy_Kong.png);
         background-size: contain;
         background-position: center ;
         background-repeat: no-repeat;
@@ -77,5 +132,61 @@
     section#login > div#formulario > p {
         margin-top: 3vw;
         font-size: 1.5em;
+    }
+    
+    div.campo > span {
+        color: #ED7F3A;
+        
+    }
+
+    div.campo > input {
+        width: 65%;
+        height: 2em;
+        font-size: 1em;
+        border: 1px solid #ce1010ce;
+        border-radius: 5px;
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #f03737;
+        color: white;
+        border: 1px solid #ce1010ce;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 4vh;
+    }
+    
+    form > input[type=submit]:hover {
+        background-color: #EF5D31;
+        transition: 0.5s;
+        block-size: 2.75em;
+    }
+    
+    form > a.botao {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        background-color: #f03737;
+        color: aliceblue;
+        border: 1px solid #ce1010ce;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 0.5vh;
+    }
+    
+    form > a.botao:hover {
+        background-color: #EF5D31;
+        transition: 0.5s;
+        block-size: 2.75em;
+    }
+    
+    form > a.botao > span {
+        font-size: 1.5em;
+    
     }
 }
