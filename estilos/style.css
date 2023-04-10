@@ -64,10 +64,6 @@ section#login > div#formulario > p {
     font-size: 1em;
 }
 
-form > div.campo {
-    
-}
-
 div.campo > label {
     display: none;
 }
